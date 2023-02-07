@@ -1,14 +1,173 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "listOrders": [
+    {
+      "id": 565623,
+      "date": "2020-09-17T09:15:27+00:00"
+    },
+    {
+      "id": 565624,
+      "date": "2020-09-17T09:15:27+00:00"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "companies": [
+    {
+      "id": 565623,
+      "name": "A Casa do Porco"
+    },
+    {
+      "id": 565625,
+      "name": "Pizza de Metro"
+    },
+    {
+      "id": 565626,
+      "name": "Rock, Amor e Pizza"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "listFormPayment": [
+    {
+      "id": 1,
+      "name": "Cartão de crédito",
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Pix",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Dinheiro",
+      "status": true
+    },
+    {
+      "id": 4,
+      "name": "Boleto",
+      "status": true
+    }
+  ],
+  "orders": [
+    {
+      "id": 565623,
+      "address": "Rua padrona, Q.20, C.06 - Parque do Lago - Várzea Grande - Mato Grosso",
+      "addressLink": "https://goo.gl/maps/4xmmukGuZpvzpyZ59",
+      "client": "Maykon Pacheco de Albuquerque",
+      "phone": "65 99851-9391",
+      "formPayment": 1,
+      "totalSale": 50.75,
+      "totalServices": 10.50,
+      "totalDiscount": 30.49,
+      "change": 10.50,
+      "total": 530.49,
+      "product": [
+        {
+          "id": 1,
+          "amount": 5,
+          "description": "Acai 1 litro",
+          "unitValue": 4.90,
+          "total": 9.80
+        },
+        {
+          "id": 2,
+          "amount": 10,
+          "description": "Acai 1 litro",
+          "unitValue": 5.90,
+          "total": 15.80
+        }
+      ]
+    },
+    {
+      "id": 565624,
+      "address": "Rua padrona, Q.20, C.06 - Parque do Lago - Várzea Grande - Mato Grosso",
+      "addressLink": "https://goo.gl/maps/4xmmukGuZpvzpyZ59",
+      "client": "Maykon Pacheco de Albuquerque",
+      "phone": "65 99851-9391",
+      "formPayment": 1,
+      "totalSale": 50.75,
+      "totalServices": 10.50,
+      "totalDiscount": 30.49,
+      "change": 10.50,
+      "total": 530.49,
+      "product": [
+        {
+          "id": 1,
+          "amount": 5,
+          "description": "Acai 1 litro",
+          "unitValue": 4.90,
+          "total": 9.80
+        },
+        {
+          "id": 2,
+          "amount": 10,
+          "description": "Acai 1 litro",
+          "unitValue": 5.90,
+          "total": 15.80
+        }
+      ]
+    }
+  ],
+  "historic": [
+    {
+      "id": 1,
+      "date": "2020-09-17T09:15:27+00:00",
+      "fees": [
+        {
+          "id": 456523,
+          "name": "A Casa do Porco",
+          "value": 15.90
+        }
+      ],
+      "total": 15.90
+    },
+    {
+      "id": 2,
+      "date": "2020-09-20T09:15:27+00:00",
+      "fees": [
+        {
+          "id": 456526,
+          "name": "A Casa do Porco",
+          "value": 15.90
+        },
+        {
+          "id": 456527,
+          "name": "Pizza de Metro",
+          "value": 150.90
+        }
+      ],
+      "total": 166.50
+    },
+    {
+      "id": 2,
+      "date": "2020-09-20T09:15:27+00:00",
+      "fees": [
+        {
+          "id": 456526,
+          "name": "A Casa do Porco",
+          "value": 15.90
+        },
+        {
+          "id": 456527,
+          "name": "Pizza de Metro",
+          "value": 150.90
+        }
+      ],
+      "total": 166.50
+    },
+    {
+      "id": 2,
+      "date": "2020-09-20T09:15:27+00:00",
+      "fees": [
+        {
+          "id": 456526,
+          "name": "A Casa do Porco",
+          "value": 15.90
+        },
+        {
+          "id": 456527,
+          "name": "Pizza de Metro",
+          "value": 150.90
+        }
+      ],
+      "total": 166.50
+    }
+  ]
 }
